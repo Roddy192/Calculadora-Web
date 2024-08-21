@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caulculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="calc">
+        <input id="display" readonly>
+            
+        <table >
+            <tr id="keys_1" style="margin-left: 5px;">
+                <button id="k_1-9" onclick="add_display('0')" style="width: 70px; height: 70px;">0</button>
+                <button id="k_1-9" onclick="add_display('1')" style="width: 70px; height: 70px;">1</button>
+                <button id="k_1-9" onclick="add_display('2')" style="width: 70px; height: 70px;">2</button>
+                
+            </tr>
+            <br>
+            <tr>
+                <button id="k_1-9" onclick="add_display('4')" style="width: 70px; height: 70px;">4</button>
+                <button id="k_1-9" onclick="add_display('5')" style="width: 70px; height: 70px;">5</button>
+                <button id="k_1-9" onclick="add_display('6')" style="width: 70px; height: 70px;">6</button>
+                
+            </tr>
+            <br>
+            <tr>
+                <button id="k_1-9" onclick="add_display('7')" style="width: 70px; height: 70px;">7</button>
+                <button id="k_1-9" onclick="add_display('8')" style="width: 70px; height: 70px;">8</button>
+                <button id="k_1-9" onclick="add_display('9')" style="width: 70px; height: 70px;">9</button>
+                
+            </tr>
+            <br>
+            <tr>
+                <button onclick="add_display('+')">+</button>
+                <button onclick="add_display('-')">-</button>
+                <button onclick="add_display('/')">÷</button>
+                <button onclick="add_display('*')">X</button>
+                <button onclick="clear_display()">C</button> 
+            </tr>
+                <button onclick="calcular()">=</button>
+            
+
+            </tr>
+        </table>
+      
+        
+        
+
+    </div>
+    <script src="./index.js"></script>
+    
+</body>
+</html>

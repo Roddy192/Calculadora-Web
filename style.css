@@ -1,0 +1,33 @@
+#calc {
+    border-style: solid;
+    width: 400px;
+    height: 600px;
+    background-color: lightgrey;
+    border-radius: 3%;
+}
+
+#display {
+    border-style: solid;
+    height: 50px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    
+}
+
+
+
+
+#k_1-9 {
+    border-radius: 20px;
+    margin-left: 5px;
+    
+}
+
+tr {
+    width: 140px;
+}
+
+
